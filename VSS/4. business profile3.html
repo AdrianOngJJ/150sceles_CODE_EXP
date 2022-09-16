@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = 'stylesheet.css' rel = 'stylesheet'>
+        <title>Business Profile</title>
+    </head>
+
+    <main>
+        <header>
+            <img src= "images/bubbles.gif" height="25%" width="25%">
+            <img src= "images/crab.png" height=15% width="15%"> 
+            <img src= "images/bubbles.gif" height="25%" width='25%'> 
+            <h1 id = "app name">Don't Shellfish Lah!</h1>
+            <h2><a href = '4. business profile2.html' id='return'><img src='images/red-arrow.png' width="30%" height="30%"></a></h2>
+        </header>
+        <br>
+
+        <form>
+
+            <label for="capacity">What is your shop capacity?</label><br>
+            <input type="text" placeholder="Max capacity" id="capacity"><br>
+
+            <label for="address">Where is your shop located?</label><br>
+            <input type="text" placeholder="Address" id="address"><br>
+
+            <label for="openinghours" name='weekday'>Opening Hours:</label>
+            <input type="text" placeholder="00:00" id="openinghours" name='opening' size='4'>
+            <label>to</label>
+            <input type="text" placeholder="00:00" id="openinghours" name='closing' size='4'>
+
+            <label for="rest type">Closed on:</label>
+            <select id="rest type"><br>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select><br>
+
+            <label for="safety">What are your safety measures?</label><br>
+            <input type="checkbox" id="safety" value="Social-Distancing">Social-Distancing
+            <input type="checkbox" id="safety" value="Mask">Mask<br>
+
+            <button type="button" class="submitbtn"><a href='5. business page.html' style='text-decoration: none; color:white;'>Get Started</a></button>
+        </form>
+    </main>
+</html>
+
+
+
